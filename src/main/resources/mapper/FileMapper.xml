@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="elec_dep.mapper.FileMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="elec_dep.pojo.File">
+        <id column="id" property="id" />
+        <result column="filehash" property="filehash" />
+        <result column="lastUpdateTime" property="lastUpdateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, filehash
+    </sql>
+
+    <select id="getFileList" resultType="elec_dep.pojo.File">
+        select * from file
+    </select>
+    <select id="search" resultType="elec_dep.pojo.File">
+        select * from file where file.filehash = '${filehash}'
+    </select>
+    <update id="deploy" parameterType="elec_dep.pojo.File" >
+        update file set status='已上链' where filehash = '${filehash}';
+    </update>
+
+</mapper>

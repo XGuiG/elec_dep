@@ -1,0 +1,67 @@
+package elec_dep.contract;
+
+import java.math.BigInteger;
+import java.util.Arrays;
+import java.util.Collections;
+import org.web3j.abi.TypeReference;
+import org.web3j.abi.datatypes.Function;
+import org.web3j.abi.datatypes.Type;
+import org.web3j.crypto.Credentials;
+import org.web3j.protocol.Web3j;
+import org.web3j.protocol.core.RemoteCall;
+import org.web3j.protocol.core.methods.response.TransactionReceipt;
+import org.web3j.tx.Contract;
+import org.web3j.tx.TransactionManager;
+
+/**
+ * <p>Auto generated code.
+ * <p><strong>Do not modify!</strong>
+ * <p>Please use the <a href="https://docs.web3j.io/command_line.html">web3j command line tools</a>,
+ * or the org.web3j.codegen.SolidityFunctionWrapperGenerator in the 
+ * <a href="https://github.com/web3j/web3j/tree/master/codegen">codegen module</a> to update.
+ *
+ * <p>Generated with web3j version 3.2.0.
+ */
+public class Evidence extends Contract {
+    private static final String BINARY = "608060405234801561001057600080fd5b50610535806100206000396000f3fe608060405234801561001057600080fd5b5060043610610053576000357c01000000000000000000000000000000000000000000000000000000009004806384e08ab614610058578063b16c6ee714610113575b600080fd5b6101116004803603602081101561006e57600080fd5b810190808035906020019064010000000081111561008b57600080fd5b82018360208201111561009d57600080fd5b803590602001918460018302840111640100000000831117156100bf57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f82011690508083019250505050505050919291929050505061024e565b005b6101cc6004803603602081101561012957600080fd5b810190808035906020019064010000000081111561014657600080fd5b82018360208201111561015857600080fd5b8035906020019184600183028401116401000000008311171561017a57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050610343565b6040518080602001838152602001828103825284818151815260200191508051906020019080838360005b838110156102125780820151818401526020810190506101f7565b50505050905090810190601f16801561023f5780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b806000826040518082805190602001908083835b602083106102855780518252602082019150602081019050602083039250610262565b6001836020036101000a038019825116818451168082178552505050505050905001915050908152602001604051809103902060000190805190602001906102ce929190610462565b50426000826040518082805190602001908083835b6020831061030657805182526020820191506020810190506020830392506102e3565b6001836020036101000a03801982511681845116808217855250505050505090500191505090815260200160405180910390206001018190555050565b60606000806000846040518082805190602001908083835b6020831061037e578051825260208201915060208101905060208303925061035b565b6001836020036101000a03801982511681845116808217855250505050505090500191505090815260200160405180910390209050806000018160010154818054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104515780601f1061042657610100808354040283529160200191610451565b820191906000526020600020905b81548152906001019060200180831161043457829003601f168201915b505050505091509250925050915091565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106104a357805160ff19168380011785556104d1565b828001600101855582156104d1579182015b828111156104d05782518255916020019190600101906104b5565b5b5090506104de91906104e2565b5090565b5b808211156104fb5760008160009055506001016104e3565b509056fea2646970667358221220ba9f3290ef47f61d145282ad13e2d58640efccf863250376d5419b907907c57664736f6c634300060c0033";
+
+    protected Evidence(String contractAddress, Web3j web3j, Credentials credentials, BigInteger gasPrice, BigInteger gasLimit) {
+        super(BINARY, contractAddress, web3j, credentials, gasPrice, gasLimit);
+    }
+
+    protected Evidence(String contractAddress, Web3j web3j, TransactionManager transactionManager, BigInteger gasPrice, BigInteger gasLimit) {
+        super(BINARY, contractAddress, web3j, transactionManager, gasPrice, gasLimit);
+    }
+
+    public RemoteCall<TransactionReceipt> getEvidence(String filehash) {
+        Function function = new Function(
+                "getEvidence", 
+                Arrays.<Type>asList(new org.web3j.abi.datatypes.Utf8String(filehash)), 
+                Collections.<TypeReference<?>>emptyList());
+        return executeRemoteCallTransaction(function);
+    }
+
+    public RemoteCall<TransactionReceipt> setEvidence(String filehash) {
+        Function function = new Function(
+                "setEvidence", 
+                Arrays.<Type>asList(new org.web3j.abi.datatypes.Utf8String(filehash)), 
+                Collections.<TypeReference<?>>emptyList());
+        return executeRemoteCallTransaction(function);
+    }
+
+    public static RemoteCall<Evidence> deploy(Web3j web3j, Credentials credentials, BigInteger gasPrice, BigInteger gasLimit) {
+        return deployRemoteCall(Evidence.class, web3j, credentials, gasPrice, gasLimit, BINARY, "");
+    }
+
+    public static RemoteCall<Evidence> deploy(Web3j web3j, TransactionManager transactionManager, BigInteger gasPrice, BigInteger gasLimit) {
+        return deployRemoteCall(Evidence.class, web3j, transactionManager, gasPrice, gasLimit, BINARY, "");
+    }
+
+    public static Evidence load(String contractAddress, Web3j web3j, Credentials credentials, BigInteger gasPrice, BigInteger gasLimit) {
+        return new Evidence(contractAddress, web3j, credentials, gasPrice, gasLimit);
+    }
+
+    public static Evidence load(String contractAddress, Web3j web3j, TransactionManager transactionManager, BigInteger gasPrice, BigInteger gasLimit) {
+        return new Evidence(contractAddress, web3j, transactionManager, gasPrice, gasLimit);
+    }
+}

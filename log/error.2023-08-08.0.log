@@ -1,0 +1,10 @@
+2023-08-08 14:17:55.991 ERROR elec_dep.exception.GlobalExceptionHandler         :16   [32m344000237469306880[0;39m 运行时异常：---------{}Maximum upload size exceeded
+2023-08-08 14:17:56.958 ERROR elec_dep.exception.GlobalExceptionHandler         :16   [32m343998544832761856[0;39m 运行时异常：---------{}Maximum upload size exceeded
+2023-08-08 21:40:30.628 ERROR elec_dep.service.Impl.FileServiceImpl             :59   [32m344112572431208448[0;39m 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'chainAddress' in 'field list'
+### The error may exist in elec_dep/mapper/FileMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,filename,filehash,lastUpdateTime,filesize,status,chainAddress  FROM file     WHERE (filehash = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'chainAddress' in 'field list'
+; bad SQL grammar []

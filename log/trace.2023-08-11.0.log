@@ -1,0 +1,562 @@
+2023-08-11 13:55:39.342 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h10m25s218ms416µs300ns).
+2023-08-11 15:02:44.106 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 15:02:44.160 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-08-11 15:02:44.168 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-08-11 15:02:50.143 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 37304 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 15:02:50.145 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 15:02:50.181 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-11 15:02:50.181 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-11 15:02:50.752 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 15:02:50.753 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 15:02:50.766 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-11 15:02:50.776 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 15:02:50.777 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 15:02:50.781 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-11 15:02:51.613 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 15:02:51.614 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 15:02:51.615 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 15:02:51.619 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 15:02:51.627 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 15:02:51.628 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 15:02:51.629 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 15:02:51.687 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 15:02:51.687 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1505 ms
+2023-08-11 15:02:51.803 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-08-11 15:02:52.061 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ef9df92
+2023-08-11 15:02:52.062 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-08-11 15:02:52.093 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 15:02:52.140 INFO  org.hibernate.Version                             :44   [32m                  [0;39m HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-11 15:02:52.142 INFO  org.hibernate.cfg.Environment                     :191  [32m                  [0;39m HHH000406: Using bytecode reflection optimizer
+2023-08-11 15:02:52.264 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 15:02:52.356 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 15:02:52.461 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 15:02:52.580 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 15:02:52.584 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 15:02:52.717 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eviController': Unsatisfied dependency expressed through field 'eviService': Error creating bean with name 'eviServiceImpl' defined in file [D:\code\myproject\Java\elec_dep\target\classes\elec_dep\service\Impl\EviServiceImpl.class]: Failed to instantiate [elec_dep.service.Impl.EviServiceImpl]: Constructor threw exception
+2023-08-11 15:02:52.717 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 15:02:52.720 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-08-11 15:02:52.729 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-08-11 15:02:52.731 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 15:02:52.742 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-11 15:02:52.760 ERROR org.springframework.boot.SpringApplication        :824  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eviController': Unsatisfied dependency expressed through field 'eviService': Error creating bean with name 'eviServiceImpl' defined in file [D:\code\myproject\Java\elec_dep\target\classes\elec_dep\service\Impl\EviServiceImpl.class]: Failed to instantiate [elec_dep.service.Impl.EviServiceImpl]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:716)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:696)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at elec_dep.config.ElecDepApplication.main(ElecDepApplication.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eviServiceImpl' defined in file [D:\code\myproject\Java\elec_dep\target\classes\elec_dep\service\Impl\EviServiceImpl.class]: Failed to instantiate [elec_dep.service.Impl.EviServiceImpl]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [elec_dep.service.Impl.EviServiceImpl]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 34 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "5R6XY3" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.math.BigInteger.<init>(BigInteger.java:536)
+	at org.web3j.utils.Numeric.toBigIntNoPrefix(Numeric.java:125)
+	at org.web3j.utils.Numeric.toBigInt(Numeric.java:121)
+	at org.web3j.crypto.Credentials.create(Credentials.java:46)
+	at elec_dep.service.Impl.EviServiceImpl.<init>(EviServiceImpl.java:38)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 36 common frames omitted
+2023-08-11 16:00:47.893 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 27876 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:00:47.897 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:00:47.992 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-11 16:00:47.993 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-11 16:00:49.941 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:00:49.944 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:00:49.982 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:00:49.998 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:00:49.999 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:00:50.009 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:00:51.489 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:00:51.492 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:00:51.494 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:00:51.518 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:00:51.536 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:00:51.541 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:00:51.543 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:00:51.642 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:00:51.643 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3648 ms
+2023-08-11 16:00:51.835 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-08-11 16:00:52.222 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79062b13
+2023-08-11 16:00:52.226 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-08-11 16:00:52.281 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:00:52.371 INFO  org.hibernate.Version                             :44   [32m                  [0;39m HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-11 16:00:52.373 INFO  org.hibernate.cfg.Environment                     :191  [32m                  [0;39m HHH000406: Using bytecode reflection optimizer
+2023-08-11 16:00:52.568 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:00:52.726 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:00:52.898 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:00:53.180 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:00:53.187 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:00:54.045 WARN  c.b.mybatisplus.core.metadata.TableInfoHelper     :347  [32m                  [0;39m Can not find table primary key in Class: "elec_dep.contract.Evidence".
+2023-08-11 16:00:54.057 WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector  :56   [32m                  [0;39m class elec_dep.contract.Evidence ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-11 16:00:54.735 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:00:55.215 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:00:55.851 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 16:00:55.893 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:00:55.931 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8090 (http) with context path ''
+2023-08-11 16:00:55.948 INFO  elec_dep.config.ElecDepApplication                :57   [32m                  [0;39m Started ElecDepApplication in 9.114 seconds (process running for 10.266)
+2023-08-11 16:01:54.813 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:01:54.816 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-08-11 16:01:54.828 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-08-11 16:02:00.501 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 6540 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:02:00.505 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:02:00.580 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-11 16:02:00.581 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-11 16:02:01.510 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:02:01.511 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:02:01.532 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:02:01.546 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:02:01.546 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:02:01.551 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:02:02.592 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:02:02.595 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:02:02.596 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:02:02.600 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:02:02.610 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:02:02.613 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:02:02.614 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:02:02.693 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:02:02.694 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2111 ms
+2023-08-11 16:02:02.891 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-08-11 16:02:03.267 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1526d1b1
+2023-08-11 16:02:03.270 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-08-11 16:02:03.341 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:02:03.410 INFO  org.hibernate.Version                             :44   [32m                  [0;39m HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-11 16:02:03.417 INFO  org.hibernate.cfg.Environment                     :191  [32m                  [0;39m HHH000406: Using bytecode reflection optimizer
+2023-08-11 16:02:03.681 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:02:03.802 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:02:03.949 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:02:04.145 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:02:04.148 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:02:04.819 WARN  c.b.mybatisplus.core.metadata.TableInfoHelper     :347  [32m                  [0;39m Can not find table primary key in Class: "elec_dep.contract.Evidence".
+2023-08-11 16:02:04.826 WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector  :56   [32m                  [0;39m class elec_dep.contract.Evidence ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-11 16:02:05.440 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:02:05.780 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:02:06.273 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 16:02:06.310 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:02:06.334 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8090 (http) with context path ''
+2023-08-11 16:02:06.347 INFO  elec_dep.config.ElecDepApplication                :57   [32m                  [0;39m Started ElecDepApplication in 6.451 seconds (process running for 7.642)
+2023-08-11 16:02:13.910 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-11 16:02:13.912 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-11 16:02:13.916 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 3 ms
+2023-08-11 16:02:14.302 INFO  elec_dep.aspect.LogAspect                         :54   [32m345114607288979456[0;39m ------------- 开始 -------------
+2023-08-11 16:02:14.304 INFO  elec_dep.aspect.LogAspect                         :55   [32m345114607288979456[0;39m 请求地址: http://localhost:8090/login POST
+2023-08-11 16:02:14.306 INFO  elec_dep.aspect.LogAspect                         :56   [32m345114607288979456[0;39m 类名方法: elec_dep.controller.UserController.login
+2023-08-11 16:02:14.306 INFO  elec_dep.aspect.LogAspect                         :57   [32m345114607288979456[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2023-08-11 16:02:14.649 INFO  elec_dep.aspect.LogAspect                         :79   [32m345114607288979456[0;39m 请求参数: [{"username":"111"}]
+2023-08-11 16:02:14.770 WARN  c.b.m.core.toolkit.support.ReflectLambdaMeta      :41   [32m345114607288979456[0;39m Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @7faa0b4c
+2023-08-11 16:02:14.933 INFO  elec_dep.aspect.LogAspect                         :91   [32m345114607288979456[0;39m 返回结果: {"msg":"登录成功","code":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxIiwiZXhwIjoxNjkxNzQ4MTM0fQ.IOXOVLMmpsQ-d6-bNlBKwk55_sI43cNk9R-1VlV3Hhw","username":"111"}}
+2023-08-11 16:02:14.934 INFO  elec_dep.aspect.LogAspect                         :92   [32m345114607288979456[0;39m ------------- 结束 耗时：637 ms -------------
+2023-08-11 16:02:32.485 INFO  elec_dep.aspect.LogAspect                         :54   [32m345114683574980608[0;39m ------------- 开始 -------------
+2023-08-11 16:02:32.487 INFO  elec_dep.aspect.LogAspect                         :55   [32m345114683574980608[0;39m 请求地址: http://localhost:8090/chain/deploy POST
+2023-08-11 16:02:32.487 INFO  elec_dep.aspect.LogAspect                         :56   [32m345114683574980608[0;39m 类名方法: elec_dep.controller.EviController.deploy
+2023-08-11 16:02:32.488 INFO  elec_dep.aspect.LogAspect                         :57   [32m345114683574980608[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2023-08-11 16:02:32.490 INFO  elec_dep.aspect.LogAspect                         :79   [32m345114683574980608[0;39m 请求参数: ["b12c07c90e42b35a7fc38f6634e99e030539797b3a0e696b197b8a8d88cd8e86"]
+2023-08-11 16:02:32.721 INFO  elec_dep.aspect.LogAspect                         :91   [32m345114683574980608[0;39m 返回结果: {"msg":"发布失败","code":500}
+2023-08-11 16:02:32.722 INFO  elec_dep.aspect.LogAspect                         :92   [32m345114683574980608[0;39m ------------- 结束 耗时：237 ms -------------
+2023-08-11 16:03:21.688 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:03:21.694 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-08-11 16:03:21.704 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-08-11 16:03:27.710 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 35732 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:03:27.712 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:03:27.773 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-11 16:03:27.773 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-11 16:03:28.609 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:03:28.612 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:03:28.639 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:03:28.657 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:03:28.658 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:03:28.665 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:03:29.945 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:03:29.947 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:03:29.948 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:03:29.954 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:03:29.965 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:03:29.967 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:03:29.967 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:03:30.052 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:03:30.053 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2279 ms
+2023-08-11 16:03:30.292 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-08-11 16:03:30.598 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b3ed7a8
+2023-08-11 16:03:30.602 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-08-11 16:03:30.647 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:03:30.695 INFO  org.hibernate.Version                             :44   [32m                  [0;39m HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-11 16:03:30.699 INFO  org.hibernate.cfg.Environment                     :191  [32m                  [0;39m HHH000406: Using bytecode reflection optimizer
+2023-08-11 16:03:30.874 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:03:30.991 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:03:31.141 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:03:31.348 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:03:31.355 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:03:32.037 WARN  c.b.mybatisplus.core.metadata.TableInfoHelper     :347  [32m                  [0;39m Can not find table primary key in Class: "elec_dep.contract.Evidence".
+2023-08-11 16:03:32.047 WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector  :56   [32m                  [0;39m class elec_dep.contract.Evidence ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-11 16:03:32.658 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:03:33.034 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:03:33.571 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 16:03:33.613 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:03:33.637 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8090 (http) with context path ''
+2023-08-11 16:03:33.656 INFO  elec_dep.config.ElecDepApplication                :57   [32m                  [0;39m Started ElecDepApplication in 6.661 seconds (process running for 7.713)
+2023-08-11 16:03:37.243 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-11 16:03:37.243 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-11 16:03:37.245 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2023-08-11 16:03:37.428 INFO  elec_dep.aspect.LogAspect                         :54   [32m345114955961470976[0;39m ------------- 开始 -------------
+2023-08-11 16:03:37.429 INFO  elec_dep.aspect.LogAspect                         :55   [32m345114955961470976[0;39m 请求地址: http://localhost:8090/chain/deploy POST
+2023-08-11 16:03:37.430 INFO  elec_dep.aspect.LogAspect                         :56   [32m345114955961470976[0;39m 类名方法: elec_dep.controller.EviController.deploy
+2023-08-11 16:03:37.430 INFO  elec_dep.aspect.LogAspect                         :57   [32m345114955961470976[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2023-08-11 16:03:37.533 INFO  elec_dep.aspect.LogAspect                         :79   [32m345114955961470976[0;39m 请求参数: ["b12c07c90e42b35a7fc38f6634e99e030539797b3a0e696b197b8a8d88cd8e86"]
+2023-08-11 16:03:47.811 INFO  elec_dep.aspect.LogAspect                         :91   [32m345114955961470976[0;39m 返回结果: {"msg":"发布失败","code":500}
+2023-08-11 16:03:47.812 INFO  elec_dep.aspect.LogAspect                         :92   [32m345114955961470976[0;39m ------------- 结束 耗时：10385 ms -------------
+2023-08-11 16:15:11.808 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 37 class path changes (0 additions, 36 deletions, 1 modification)
+2023-08-11 16:15:11.831 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:15:11.831 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 16:15:11.836 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-11 16:15:11.844 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:15:11.847 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:15:11.854 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:15:11.860 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-08-11 16:15:11.877 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-08-11 16:15:12.027 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 35732 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:15:12.028 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:15:12.442 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:15:12.442 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:15:12.445 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:15:12.453 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:15:12.453 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:15:12.456 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:15:12.505 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[elec_dep.mapper]' package. Please check your configuration.
+2023-08-11 16:15:12.627 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:15:12.628 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:15:12.629 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:15:12.630 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:15:12.630 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:15:12.631 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:15:12.631 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:15:12.667 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:15:12.667 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 633 ms
+2023-08-11 16:15:12.733 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2023-08-11 16:15:12.767 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dfbe3ba
+2023-08-11 16:15:12.768 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2023-08-11 16:15:12.771 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:15:12.791 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:15:12.792 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:15:12.800 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:15:12.807 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:15:12.808 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:15:12.837 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:15:12.962 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:15:13.007 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\code\myproject\Java\elec_dep\target\classes\mapper\EviMapper.xml]'
+2023-08-11 16:15:13.008 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:15:13.009 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2023-08-11 16:15:13.032 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2023-08-11 16:15:13.034 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 16:15:13.043 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-11 16:15:13.098 ERROR org.springframework.boot.SpringApplication        :824  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\code\myproject\Java\elec_dep\target\classes\mapper\EviMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at elec_dep.config.ElecDepApplication.main(ElecDepApplication.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\code\myproject\Java\elec_dep\target\classes\mapper\EviMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 22 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\code\myproject\Java\elec_dep\target\classes\mapper\EviMapper.xml]'
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:575)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:444)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:608)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:224)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 23 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\code\myproject\Java\elec_dep\target\classes\mapper\EviMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'elec_dep.contract.Evidence'.  Cause: java.lang.ClassNotFoundException: Cannot find class: elec_dep.contract.Evidence
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:573)
+	... 29 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'elec_dep.contract.Evidence'.  Cause: java.lang.ClassNotFoundException: Cannot find class: elec_dep.contract.Evidence
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:270)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:262)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:124)
+	... 31 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'elec_dep.contract.Evidence'.  Cause: java.lang.ClassNotFoundException: Cannot find class: elec_dep.contract.Evidence
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:150)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 35 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: elec_dep.contract.Evidence
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 37 common frames omitted
+2023-08-11 16:15:19.174 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 35732 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:15:19.175 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:15:19.742 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:15:19.743 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:15:19.745 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:15:19.748 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:15:19.749 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:15:19.751 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:15:19.957 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:15:19.959 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:15:19.959 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:15:19.960 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:15:19.960 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:15:19.962 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:15:19.962 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:15:19.997 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:15:19.997 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 819 ms
+2023-08-11 16:15:20.109 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2023-08-11 16:15:20.137 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15dd3668
+2023-08-11 16:15:20.138 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2023-08-11 16:15:20.141 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:15:20.149 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:15:20.149 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:15:20.156 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:15:20.163 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:15:20.164 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:15:20.251 WARN  c.b.mybatisplus.core.metadata.TableInfoHelper     :347  [32m                  [0;39m Can not find table primary key in Class: "elec_dep.contract.Evidence".
+2023-08-11 16:15:20.251 WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector  :56   [32m                  [0;39m class elec_dep.contract.Evidence ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-11 16:15:20.753 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:15:21.021 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:15:21.541 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 16:15:21.571 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:15:21.577 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8090 (http) with context path ''
+2023-08-11 16:15:21.593 INFO  elec_dep.config.ElecDepApplication                :57   [32m                  [0;39m Started ElecDepApplication in 2.463 seconds (process running for 715.652)
+2023-08-11 16:15:21.603 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-08-11 16:26:34.283 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-08-11 16:26:34.315 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:34.316 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 16:26:34.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:34.322 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:34.324 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:26:34.326 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2023-08-11 16:26:34.335 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2023-08-11 16:26:34.443 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 35732 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:26:34.443 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:26:34.716 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:26:34.716 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:26:34.718 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:26:34.721 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:26:34.721 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:26:34.723 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:26:34.930 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:26:34.931 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:26:34.931 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:26:34.932 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:26:34.932 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:34.933 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:26:34.933 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:26:34.989 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:26:34.990 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 540 ms
+2023-08-11 16:26:35.090 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2023-08-11 16:26:35.118 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b150373
+2023-08-11 16:26:35.118 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2023-08-11 16:26:35.120 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:26:35.129 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:26:35.129 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:26:35.134 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:26:35.141 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:26:35.141 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:26:35.213 WARN  c.b.mybatisplus.core.metadata.TableInfoHelper     :347  [32m                  [0;39m Can not find table primary key in Class: "elec_dep.contract.Evidence".
+2023-08-11 16:26:35.215 WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector  :56   [32m                  [0;39m class elec_dep.contract.Evidence ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-11 16:26:35.569 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:26:35.753 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:26:36.048 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 16:26:36.065 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:36.068 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8090 (http) with context path ''
+2023-08-11 16:26:36.072 INFO  elec_dep.config.ElecDepApplication                :57   [32m                  [0;39m Started ElecDepApplication in 1.677 seconds (process running for 1390.13)
+2023-08-11 16:26:36.075 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-08-11 16:26:37.486 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-08-11 16:26:37.506 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:37.506 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 16:26:37.507 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:37.509 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:37.510 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:26:37.511 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2023-08-11 16:26:37.517 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2023-08-11 16:26:37.648 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 35732 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:26:37.649 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:26:37.968 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:26:37.969 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:26:37.972 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:26:37.978 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:26:37.978 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:26:37.983 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:26:38.272 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:26:38.273 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:26:38.273 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:26:38.273 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:26:38.273 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:38.274 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:26:38.274 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:26:38.316 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:26:38.316 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 662 ms
+2023-08-11 16:26:38.424 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-5 - Starting...
+2023-08-11 16:26:38.449 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b6c62ea
+2023-08-11 16:26:38.449 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-5 - Start completed.
+2023-08-11 16:26:38.451 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:26:38.458 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:26:38.458 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:26:38.466 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:26:38.470 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:26:38.471 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:26:38.519 WARN  c.b.mybatisplus.core.metadata.TableInfoHelper     :347  [32m                  [0;39m Can not find table primary key in Class: "elec_dep.contract.Evidence".
+2023-08-11 16:26:38.519 WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector  :56   [32m                  [0;39m class elec_dep.contract.Evidence ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-11 16:26:38.816 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:26:38.954 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:26:39.387 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 16:26:39.407 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:26:39.411 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8090 (http) with context path ''
+2023-08-11 16:26:39.422 INFO  elec_dep.config.ElecDepApplication                :57   [32m                  [0;39m Started ElecDepApplication in 1.824 seconds (process running for 1393.48)
+2023-08-11 16:26:39.427 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-08-11 16:43:40.313 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-08-11 16:43:40.333 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:43:40.334 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 16:43:40.336 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:43:40.339 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:43:40.340 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:43:40.341 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2023-08-11 16:43:40.357 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2023-08-11 16:43:40.477 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 35732 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:43:40.478 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:43:40.701 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:43:40.701 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:43:40.703 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:43:40.707 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:43:40.707 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:43:40.708 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:43:40.951 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:43:40.952 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:43:40.952 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:43:40.952 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:43:40.953 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:43:40.953 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:43:40.953 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:43:40.985 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:43:40.986 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 505 ms
+2023-08-11 16:43:41.068 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-6 - Starting...
+2023-08-11 16:43:41.102 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@592e1481
+2023-08-11 16:43:41.102 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-6 - Start completed.
+2023-08-11 16:43:41.104 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:43:41.113 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:43:41.113 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:43:41.119 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:43:41.124 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:43:41.125 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:43:41.193 WARN  c.b.mybatisplus.core.metadata.TableInfoHelper     :347  [32m                  [0;39m Can not find table primary key in Class: "elec_dep.contract.Evidence".
+2023-08-11 16:43:41.193 WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector  :56   [32m                  [0;39m class elec_dep.contract.Evidence ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-11 16:43:41.506 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:43:41.682 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:43:42.295 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 16:43:42.322 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:43:42.325 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8090 (http) with context path ''
+2023-08-11 16:43:42.331 INFO  elec_dep.config.ElecDepApplication                :57   [32m                  [0;39m Started ElecDepApplication in 1.899 seconds (process running for 2416.388)
+2023-08-11 16:43:42.334 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-08-11 16:44:09.394 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-08-11 16:44:09.418 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:44:09.419 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 16:44:09.422 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:44:09.425 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:44:09.426 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:44:09.426 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-6 - Shutdown initiated...
+2023-08-11 16:44:09.432 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-6 - Shutdown completed.
+2023-08-11 16:44:09.565 INFO  elec_dep.config.ElecDepApplication                :51   [32m                  [0;39m Starting ElecDepApplication using Java 18.0.2.1 with PID 35732 (D:\code\myproject\Java\elec_dep\target\classes started by Jessie in D:\code\myproject\Java\elec_dep)
+2023-08-11 16:44:09.565 INFO  elec_dep.config.ElecDepApplication                :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 16:44:09.843 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:44:09.844 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-11 16:44:09.847 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2023-08-11 16:44:09.850 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :291  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-11 16:44:09.850 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 16:44:09.852 INFO  o.s.d.response.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-11 16:44:10.084 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8090 (http)
+2023-08-11 16:44:10.084 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-08-11 16:44:10.084 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-08-11 16:44:10.084 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-08-11 16:44:10.085 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:44:10.085 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 16:44:10.086 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-11 16:44:10.120 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 16:44:10.120 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 552 ms
+2023-08-11 16:44:10.273 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-7 - Starting...
+2023-08-11 16:44:10.296 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68727a7a
+2023-08-11 16:44:10.296 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-7 - Start completed.
+2023-08-11 16:44:10.297 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 16:44:10.305 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:44:10.305 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-11 16:44:10.314 INFO  o.h.bytecode.internal.BytecodeProviderInitiator   :53   [32m                  [0;39m HHH000021: Bytecode provider name : bytebuddy
+2023-08-11 16:44:10.319 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:51   [32m                  [0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 16:44:10.320 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 16:44:10.393 WARN  c.b.mybatisplus.core.metadata.TableInfoHelper     :347  [32m                  [0;39m Can not find table primary key in Class: "elec_dep.contract.Evidence".
+2023-08-11 16:44:10.393 WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector  :56   [32m                  [0;39m class elec_dep.contract.Evidence ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-08-11 16:44:10.820 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 16:44:10.970 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101  [32m                  [0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-11 16:44:11.262 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 16:44:11.278 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8090"]
+2023-08-11 16:44:11.281 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8090 (http) with context path ''
+2023-08-11 16:44:11.286 INFO  elec_dep.config.ElecDepApplication                :57   [32m                  [0;39m Started ElecDepApplication in 1.769 seconds (process running for 2445.345)
+2023-08-11 16:44:11.288 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged

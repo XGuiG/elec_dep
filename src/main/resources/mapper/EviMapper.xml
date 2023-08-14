@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="elec_dep.mapper.EviMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="elec_dep.pojo.Evi">
+        <id column="id" property="id" />
+        <result column="filehash" property="filehash" />
+        <result column="transactionTime" property="transactionTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, filehash
+    </sql>
+
+</mapper>
+
+        <!--<?xml version="1.0" encoding="UTF-8" ?>-->
+        <!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"-->
+        <!--        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+
+        <!--&lt;!&ndash;namespace要和接口的位置和名字对应&ndash;&gt;-->
+        <!--<mapper namespace="elec_dep.mapper.TestMapper">-->
+
+        <!--    <select id="getList" resultType="elec_dep.pojo.Test">-->
+        <!--        select * from test-->
+        <!--    </select>-->
+
+        <!--</mapper>-->
